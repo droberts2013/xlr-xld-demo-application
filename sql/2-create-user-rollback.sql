@@ -1,0 +1,2 @@
+drop user 'xebialabs'@'%';
+	

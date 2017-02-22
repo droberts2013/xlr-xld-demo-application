@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+   <title>Java EE 6 Starter Application</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <h:outputStylesheet name="css/screen.css" />
+</h:head>
+<h:body>
+   <div id="container">
+      <div id="content">
+         <div id="sidebar">
+            <h3>Find out more</h3>
+            <p>Learn about our products:</p>
+            <ul>
+            <li><a href="https://docs.xebialabs.com/getting-started/index.html">Getting started</a></li>
+            <li><a href="https://docs.xebialabs.com/development-dashboard/index.html">Development dashboard</a></li>
+            </ul>
+            <p>Other online media:</p>
+            <ul>
+               <li><a href="http://blog.xebialabs.com">Blogs</a></li>
+               <li><a href="https://support.xebialabs.com/hc/en-us">Support</a></li>
+               <li><a href="https://docs.xebialabs.com/videos/index.html">Videos</a></li>
+            </ul>
+            <p>And more stuff here:</p>
+            <ul>
+               <li><a href="http://www.xebialabs.com">XebiaLabs</a></li>
+               <li><a href="https://github.com/xebialabs-community">Community plugins</a></li>
+            </ul>
+            <p>Visit us today!</p>
+          </div>
+         <ui:insert name="content">
+                    [Template content will be inserted here]
+                </ui:insert>
+      </div>
+      <div id="footer">
+         <h:graphicImage value="/resources/gfx/xl-logo.png" alt="Weld logo" />
+      </div>
+   </div>
+</h:body>
+</html>
