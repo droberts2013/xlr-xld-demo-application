@@ -24,7 +24,7 @@ public class MemberTest {
 
 	@Test
 	public void checkEmail() {
-		assertTrue(this.member.getEmail().equals(this.email));
+		assertTrue(this.member.getEmail().equals(this.name));
 	}
 
 	@Test
