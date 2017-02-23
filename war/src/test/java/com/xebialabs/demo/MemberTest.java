@@ -1,4 +1,4 @@
-package com.xebialabs.dave.demo;
+package com.xebialabs.demo;
 
 import static org.junit.Assert.*;
 
