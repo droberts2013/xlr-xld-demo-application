@@ -5,6 +5,13 @@
 	<artifactId>xlda</artifactId>
 	<version>1.1.${buildNumber}</version>
 	<packaging>war</packaging>
+        <repositories>
+                <repository>
+                        <id>docker-nexus-repository</id>
+                        <url>http://nexus:8081/nexus/content/repositories/releases</url>
+                        <releases><enabled>true</enabled></releases>
+                </repository>
+        </repositories>
 	<dependencies>
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
